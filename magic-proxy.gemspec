@@ -7,10 +7,10 @@ Gem::Specification.new do |spec|
   spec.name          = "magic-proxy"
   spec.version       = Magic::Proxy::VERSION
   spec.authors       = ["David Hudson"]
-  spec.email         = ["david.hudson@nfl.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.email         = ["jendave.hudson@gmail.com"]
+  spec.summary       = %q{Creates proxies for Magic: the Gathering.}
+  spec.description   = %q{Creates proxies for cards and tokens for Magic: the Gathering.}
+  spec.homepage      = "https://github.com/jendave/magic-proxy"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
@@ -19,5 +19,5 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_development_dependency "bundler", "~> 1.5"
-  spec.add_development_dependency "rake"
+  spec.add_development_dependency "rake", "~> 0"
 end
